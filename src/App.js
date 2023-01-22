@@ -3,8 +3,8 @@ import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import "./App.css";
-import Content from "./Content";
-import Video from "./Video";
+import Content from "./components/Content";
+import Video from "./components/Video";
 import React from "react";
 
 function App() {

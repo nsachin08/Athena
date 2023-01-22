@@ -1,3 +1,4 @@
+// Responsible for loading videos
 import React from "react";
 
 function Player({ link }) {

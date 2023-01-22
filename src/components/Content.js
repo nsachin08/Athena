@@ -1,10 +1,11 @@
+// This fetches the data from the api and send the contentents to the Text Component which formats it.
 import React, { useState, useEffect } from "react";
 import { ScrollContainer, ScrollPage } from "react-scroll-motion";
 import Text from "./Text";
-import axios from "axios";
+import axios from "axios"; // for making request
 
 const Content = () => {
-  const [state, setState] = useState([]);
+  const [state, setState] = useState([]); // for storing the response from  given API
   const [number, setNumber] = useState(0);
 
   useEffect(() => {

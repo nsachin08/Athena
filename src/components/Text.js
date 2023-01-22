@@ -1,3 +1,4 @@
+// This displays the text
 import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -9,8 +10,8 @@ function Text({ item }) {
       <CardContent>
         <Typography
           sx={{ fontSize: 22.4, textAlign: "left", fontWeight: "600" }}
-          color="text.primart"
           gutterBottom
+          className="heading"
         >
           {item["heading"]}
         </Typography>
