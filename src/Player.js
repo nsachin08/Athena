@@ -12,6 +12,7 @@ function Player({ link }) {
         }}
         autoPlay
         loop
+        muted
       >
         <source src={link} />
       </video>
